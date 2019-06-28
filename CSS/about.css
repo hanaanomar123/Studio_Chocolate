@@ -1,0 +1,19 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+h4 {
+text-align: right;
+}
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+  }

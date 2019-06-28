@@ -1,0 +1,33 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+div.image {
+margin: 10vh 42vw;
+}
+
+h1,p {
+  margin: 5vw;
+  text-align: center;
+}
+h1 {
+  text-decoration: underline;
+}
+p {
+  font-family: sans-serif;
+}
+h3 {
+  margin: 8vw;
+}
+ div.Design {
+   margin: 10vw;
+ }
+ div.world {
+   margin: 10vw;
+ }
+ div.bar {
+   margin: 10vw;
+ }

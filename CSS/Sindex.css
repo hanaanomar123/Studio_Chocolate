@@ -1,0 +1,77 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+h4{
+  text-align: right;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+text-align: center;
+width: 100%;
+font-size: 5em;
+}
+body, html {
+ height: 100%;
+}
+div.contrast{
+  margin: 10vw;
+}
+P{
+margin: 5vw;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 30%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+ position: relative;
+ width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+ width: 50%;
+ height: auto;
+ display:block;
+padding: 20px;
+margin: 0 auto;
+}
+
+
+#more {display: none;}
